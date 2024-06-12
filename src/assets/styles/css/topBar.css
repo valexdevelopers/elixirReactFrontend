@@ -1,0 +1,75 @@
+.topBarContainer{
+    display: grid;
+    grid-template-columns:10% calc(70% - 40px) 20% 50px ;
+}
+.topBar{
+    border: 1px solid grey;
+   
+}
+.brand{
+    /* border-right: 1px solid grey; */
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.logoImg{
+   
+    width: 80px;
+   
+   
+}
+
+input[type=search].animatedSearch{
+    width: 130px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('../../images/utilities/search.png');
+    background-position: 10px 10px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 7px 10px 10px 30px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search].animatedSearch:focus {
+    width: 100%;
+}
+.calenderInfo{
+display: flex;
+justify-content: right;
+}
+.todayDate{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: px;
+}
+.dateIcon{
+    color: grey;
+}
+.dateString{
+    font-size: 14px;
+    color: grey;
+}
+/* .accountUser{
+    
+/*     
+    border-left: 1px solid grey; 
+} */
+
+.accountUser > button{
+    padding: 0px 5px;
+    margin: 0 auto;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50%;
+
+}
+
+.topbarUserIcon{
+    color: grey;
+    font-size: 15px;
+}

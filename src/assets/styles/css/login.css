@@ -1,0 +1,138 @@
+/* body{
+background-color: aqua;
+    background-image: url(../../images/background/bg2.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+} */
+
+.loginFormWrap{
+    width: 100%;
+    height: calc(85%);
+    padding-top: 5%;
+}
+
+.form_wrap{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(235, 207, 207, 0.564);
+    
+    /* webkit-box-shadow: -1px -1px 5px 0px rgba(46, 39, 46, 1); */
+        -moz-box-shadow: -1px -1px 5px 0px rgba(46, 39, 46, 1);
+        box-shadow: -1px -1px 5px 0px rgba(46, 39, 46, 1);
+        
+}
+
+.logo_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.brandImage{
+   
+    width: 70%;
+}
+
+.loginformContainer{
+    /* background-color: rgba(144, 181, 212, 0.181); */
+    height: 395px;
+}
+
+.formTitle > h3{
+    color: #690ac8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.formContainer{
+    padding: 0px 15px 10px 15px;
+}
+
+
+.loginFormLabel{
+    color: var(--appColor);
+    text-align: left !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.LoginFooter{
+    width: 70%;
+    margin: 50px auto  0 auto;
+}
+.footerLineSeperator{
+   background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: url("../../images/utilities/dots.png");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    height: 5px;
+}
+
+.brandName{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.brandName > p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: -2px;
+}
+
+.appVersion{
+    color: #444;
+    text-align: center;
+}
+
+.showPassword{
+    background-color: white !important;
+}
+
+.showPassword:hover{
+    color: black !important;
+}
+
+.remember{
+    width: 50%;
+    margin: 10px auto 0 auto;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    column-gap: 10px;
+}
+.loginActionBtn{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.loginActionBtn > div > button{
+    padding: 5px 35px;
+    color: white;
+}
+
+.appColorbtn{
+    background-color: var(--appColor);
+    border-radius: 1px !important;
+    border: none;
+}
+
+.forgotPassword{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+
+}
+
+.forgotPassword  > a{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
